@@ -1,5 +1,16 @@
 import React from 'react';
-
+import baby from '../../Assets/Icons/playtime.png';
+import cooking from '../../Assets/Icons/cooking.png';
+import fruits from '../../Assets/Icons/fruit.png';
+import drinks from '../../Assets/Icons/soft-drink.png';
+import home_care from '../../Assets/Icons/cleaning.png';
+import beauty_baby from '../../Assets/Icons/shampoo.png';
+import health_care from '../../Assets/Icons/aid-kit.png';
+import milk from '../../Assets/Icons/dairy.png';
+import snaks from '../../Assets/Icons/snack.png';
+import office from '../../Assets/Icons/stationery.png';
+import kitchen from '../../Assets/Icons/kitchen.png';
+import car from '../../Assets/Icons/hybrid-car.png';
 const Navbar = () => {
     return (
         <div>
@@ -7,19 +18,21 @@ const Navbar = () => {
 
                 {/* <!-- Section: Design Block -->sticky top-0 z-50 */}
                 <section class="mb-0  ">
-                    <nav class="navbar  sticky top-0  z-index: 40 navbar-expand-lg shadow-lg py-3 bg-[#4b830d] relative flex items-center w-full justify-between">
-                        <div class="lg:px-24">
+                    <nav class="navbar  navbar-expand-lg shadow-lg py-3 bg-[#4b830d] relative flex items-center w-full justify-between">
+                        <div class="lg:px-24 flex">
+
                             <button
                                 class="navbar-toggler border-0 py-3 px-5 lg:hidden leading-none text-xl bg-transparent text-white hover:text-white focus:text-white
                                 transition-shadow duration-300 ease-in-out"
                                 type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContentX"
                                 aria-controls="navbarSupportedContentX" aria-expanded="false" aria-label="Toggle navigation">
-                                <svg aria-hidden="true" focusable="false" data-prefix="fas" class="w-6" role="img"
+                                <svg aria-hidden="true" focusable="false" data-prefix="fas" class="w-5" role="img"
                                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
                                     <path fill="currentColor"
                                         d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z">
                                     </path>
                                 </svg>
+
                             </button>
                             <div class="navbar-collapse collapse grow items-center" id="navbarSupportedContentX">
 
@@ -48,92 +61,45 @@ const Navbar = () => {
                                                             <a class="dropdown-item text-sm py-3 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100 transition duration-300 ease-in-out flex items-center"
                                                                 href="#">
                                                                 <img
-                                                                    src="https://mdbcdn.b-cdn.net/wp-content/themes/mdbootstrap4/content/en/_mdb5/_assets/img/icons/mdb-new.png"
+                                                                    src={baby}
                                                                     alt="" class="w-6 mr-3" />
-                                                                <span>MDBootstrap</span>
+                                                                <span>Baby Care</span>
                                                             </a>
                                                         </li>
                                                         <li>
                                                             <a class="dropdown-item text-sm py-3 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100 transition duration-300 ease-in-out flex items-center"
                                                                 href="#">
                                                                 <img
-                                                                    src="https://mdbcdn.b-cdn.net/wp-content/themes/mdbootstrap4/content/en/_mdb5/_assets/img/icons/react.png"
+                                                                    src={cooking}
                                                                     alt="" class="w-6 mr-3" />
-                                                                <span>React</span>
+                                                                <span>Kitchen and Cooking</span>
                                                             </a>
                                                         </li>
                                                         <li>
                                                             <a class="dropdown-item text-sm py-3 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100 transition duration-300 ease-in-out flex items-center"
                                                                 href="#">
                                                                 <img
-                                                                    src="https://mdbcdn.b-cdn.net/wp-content/themes/mdbootstrap4/content/en/_mdb5/_assets/img/icons/angular.png"
+                                                                    src={fruits}
                                                                     alt="" class="w-6 mr-3" />
-                                                                <span>Angular</span>
+                                                                <span>Fruits & Vagetables</span>
                                                             </a>
                                                         </li>
                                                         <li>
                                                             <a class="dropdown-item text-sm py-3 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100 transition duration-300 ease-in-out flex items-center"
                                                                 href="#">
                                                                 <img
-                                                                    src="https://mdbcdn.b-cdn.net/wp-content/themes/mdbootstrap4/content/en/_mdb5/_assets/img/icons/vue.png"
+                                                                    src={drinks}
                                                                     alt="" class="w-6 mr-3" />
-                                                                <span>Vue</span>
+                                                                <span>Drinks & Beverage</span>
                                                             </a>
                                                         </li>
                                                         <li>
                                                             <a class="dropdown-item text-sm py-3 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100 transition duration-300 ease-in-out flex items-center"
                                                                 href="#">
                                                                 <img
-                                                                    src="https://mdbcdn.b-cdn.net/wp-content/themes/mdbootstrap4/content/en/_mdb5/_assets/img/icons/wordpress.png"
+                                                                    src={home_care}
                                                                     alt="" class="w-6 mr-3" />
-                                                                <span>WordPress</span>
-                                                            </a>
-                                                        </li>
-                                                    </ul>
-                                                    <ul>
-                                                        <li>
-                                                            <a class="dropdown-item text-sm py-3 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100 transition duration-300 ease-in-out flex items-center"
-                                                                href="#">
-                                                                <img
-                                                                    src="https://mdbcdn.b-cdn.net/wp-content/themes/mdbootstrap4/content/en/_mdb5/_assets/img/icons/laravel.png"
-                                                                    alt="" class="w-6 mr-3" />
-                                                                <span>Laravel</span>
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a class="dropdown-item text-sm py-3 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100 transition duration-300 ease-in-out flex items-center"
-                                                                href="#">
-                                                                <img
-                                                                    src="https://mdbcdn.b-cdn.net/wp-content/themes/mdbootstrap4/content/en/_mdb5/_assets/img/icons/nodejs.png"
-                                                                    alt="" class="w-6 mr-3" />
-                                                                <span>Node.js</span>
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a class="dropdown-item text-sm py-3 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100 transition duration-300 ease-in-out flex items-center"
-                                                                href="#">
-                                                                <img
-                                                                    src="https://mdbcdn.b-cdn.net/wp-content/themes/mdbootstrap4/content/en/_mdb5/_assets/img/icons/mongodb.png"
-                                                                    alt="" class="w-6 mr-3" />
-                                                                <span>Mongo DB</span>
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a class="dropdown-item text-sm py-3 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100 transition duration-300 ease-in-out flex items-center"
-                                                                href="#">
-                                                                <img
-                                                                    src="https://mdbcdn.b-cdn.net/wp-content/themes/mdbootstrap4/content/en/_mdb5/_assets/img/icons/python.png"
-                                                                    alt="" class="w-6 mr-3" />
-                                                                <span>Python</span>
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a class="dropdown-item text-sm py-3 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100 transition duration-300 ease-in-out flex items-center"
-                                                                href="#">
-                                                                <img
-                                                                    src="https://mdbcdn.b-cdn.net/wp-content/themes/mdbootstrap4/content/en/_mdb5/_assets/img/icons/mysql.png"
-                                                                    alt="" class="w-6 mr-3" />
-                                                                <span>MySQL</span>
+                                                                <span>Home Care & Cleaning</span>
                                                             </a>
                                                         </li>
                                                     </ul>
@@ -142,45 +108,45 @@ const Navbar = () => {
                                                             <a class="dropdown-item text-sm py-3 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100 transition duration-300 ease-in-out flex items-center"
                                                                 href="#">
                                                                 <img
-                                                                    src="https://mdbcdn.b-cdn.net/wp-content/themes/mdbootstrap4/content/en/_mdb5/_assets/img/icons/php.png"
+                                                                    src={beauty_baby}
                                                                     alt="" class="w-6 mr-3" />
-                                                                <span>PHP</span>
+                                                                <span>Beauty & Body Care</span>
                                                             </a>
                                                         </li>
                                                         <li>
                                                             <a class="dropdown-item text-sm py-3 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100 transition duration-300 ease-in-out flex items-center"
                                                                 href="#">
                                                                 <img
-                                                                    src="https://mdbcdn.b-cdn.net/wp-content/themes/mdbootstrap4/content/en/_mdb5/_assets/img/icons/javascript.png"
+                                                                    src={health_care}
                                                                     alt="" class="w-6 mr-3" />
-                                                                <span>Pure JavaScript</span>
+                                                                <span>Health & Adult Care</span>
                                                             </a>
                                                         </li>
                                                         <li>
                                                             <a class="dropdown-item text-sm py-3 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100 transition duration-300 ease-in-out flex items-center"
                                                                 href="#">
                                                                 <img
-                                                                    src="https://mdbcdn.b-cdn.net/wp-content/themes/mdbootstrap4/content/en/_mdb5/_assets/img/icons/html.png"
+                                                                    src={milk}
                                                                     alt="" class="w-6 mr-3" />
-                                                                <span>Any static website</span>
+                                                                <span>Milk & Dairy</span>
                                                             </a>
                                                         </li>
                                                         <li>
                                                             <a class="dropdown-item text-sm py-3 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100 transition duration-300 ease-in-out flex items-center"
                                                                 href="#">
                                                                 <img
-                                                                    src="https://mdbcdn.b-cdn.net/wp-content/themes/mdbootstrap4/content/en/_mdb5/_assets/img/icons/expressjs.png"
+                                                                    src={snaks}
                                                                     alt="" class="w-6 mr-3" />
-                                                                <span>Express</span>
+                                                                <span>Snacks & Spread</span>
                                                             </a>
                                                         </li>
                                                         <li>
                                                             <a class="dropdown-item text-sm py-3 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100 transition duration-300 ease-in-out flex items-center"
                                                                 href="#">
                                                                 <img
-                                                                    src="https://mdbcdn.b-cdn.net/wp-content/themes/mdbootstrap4/content/en/_mdb5/_assets/img/icons/socketio.png"
+                                                                    src={office}
                                                                     alt="" class="w-6 mr-3" />
-                                                                <span>SocketIO</span>
+                                                                <span>Office & Schooling</span>
                                                             </a>
                                                         </li>
                                                     </ul>
@@ -189,27 +155,75 @@ const Navbar = () => {
                                                             <a class="dropdown-item text-sm py-3 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100 transition duration-300 ease-in-out flex items-center"
                                                                 href="#">
                                                                 <img
-                                                                    src="https://mdbcdn.b-cdn.net/wp-content/themes/mdbootstrap4/content/en/_mdb5/_assets/img/icons/passport.png"
+                                                                    src={kitchen}
                                                                     alt="" class="w-6 mr-3" />
-                                                                <span>Passport</span>
+                                                                <span>Kitchen Appliance</span>
                                                             </a>
                                                         </li>
                                                         <li>
                                                             <a class="dropdown-item text-sm py-3 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100 transition duration-300 ease-in-out flex items-center"
                                                                 href="#">
                                                                 <img
-                                                                    src="https://mdbcdn.b-cdn.net/wp-content/themes/mdbootstrap4/content/en/_mdb5/_assets/img/icons/tailwindcss.png"
+                                                                    src={car}
                                                                     alt="" class="w-6 mr-3" />
-                                                                <span>Tailwind CSS</span>
+                                                                <span>Automotive Essentials</span>
                                                             </a>
                                                         </li>
                                                         <li>
                                                             <a class="dropdown-item text-sm py-3 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100 transition duration-300 ease-in-out flex items-center"
                                                                 href="#">
                                                                 <img
-                                                                    src="https://mdbcdn.b-cdn.net/wp-content/themes/mdbootstrap4/content/en/_mdb5/_assets/img/icons/jamstack.png"
+                                                                    src={health_care}
                                                                     alt="" class="w-6 mr-3" />
-                                                                <span>Jamstack</span>
+                                                                <span>Health & Adult Care</span>
+                                                            </a>
+
+                                                        </li>
+                                                        <li>
+                                                            <a class="dropdown-item text-sm py-3 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100 transition duration-300 ease-in-out flex items-center"
+                                                                href="#">
+                                                                <img
+                                                                    src={health_care}
+                                                                    alt="" class="w-6 mr-3" />
+                                                                <span>Health & Adult Care</span>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a class="dropdown-item text-sm py-3 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100 transition duration-300 ease-in-out flex items-center"
+                                                                href="#">
+                                                                <img
+                                                                    src={health_care}
+                                                                    alt="" class="w-6 mr-3" />
+                                                                <span>Health & Adult Care</span>
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                    <ul>
+                                                        <li>
+                                                            <a class="dropdown-item text-sm py-3 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100 transition duration-300 ease-in-out flex items-center"
+                                                                href="#">
+                                                                <img
+                                                                    src={health_care}
+                                                                    alt="" class="w-6 mr-3" />
+                                                                <span>Health & Adult Care</span>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a class="dropdown-item text-sm py-3 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100 transition duration-300 ease-in-out flex items-center"
+                                                                href="#">
+                                                                <img
+                                                                    src={health_care}
+                                                                    alt="" class="w-6 mr-3" />
+                                                                <span>Health & Adult Care</span>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a class="dropdown-item text-sm py-3 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100 transition duration-300 ease-in-out flex items-center"
+                                                                href="#">
+                                                                <img
+                                                                    src={health_care}
+                                                                    alt="" class="w-6 mr-3" />
+                                                                <span>Health & Adult Care</span>
                                                             </a>
                                                         </li>
                                                     </ul>
