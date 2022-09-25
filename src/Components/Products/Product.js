@@ -11,6 +11,7 @@ import snaks from '../../Assets/Icons/snack.png';
 import office from '../../Assets/Icons/stationery.png';
 import kitchen from '../../Assets/Icons/kitchen.png';
 import car from '../../Assets/Icons/hybrid-car.png';
+import { Link } from 'react-router-dom';
 
 const Product = () => {
     return (
@@ -22,19 +23,22 @@ const Product = () => {
 
                 <div class="flex justify-center w-full ">
                     <div class="rounded-lg shadow-xl hover:bg-[#e1f5fe] shadow-2xl  bg-white  h-40 ">
-                        <div class="flex justify-center w-100 mt-5 w-44 xl:w-48 lg:w-48 hover:scale-105 duration-1000'">
-                            <a href="#!">
+                        <Link to='Category'>
+                            <div class="flex justify-center w-100 mt-5 w-40 md:w-44 xl:w-48 lg:w-48 hover:scale-105 duration-1000'">
+
                                 <img class="rounded-t-md w-20 h-20 text-center flex" src={baby} alt="" />
-                            </a>
-                        </div>
+
+                            </div>
+                        </Link>
                         <h2 className='mt-3 text-sm lg:text-[16px]'>Baby Care</h2>
                     </div>
+
                 </div>
 
 
                 <div class="flex justify-center w-100">
                     <div class="rounded-lg shadow-xl hover:bg-[#e1f5fe] bg-white w-100 h-40">
-                        <div class="flex justify-center w-100 mt-5 w-44  xl:w-48 lg:w-48 hover:scale-105 duration-1000'">
+                        <div class="flex justify-center w-100 mt-5 w-40 md:w-44  xl:w-48 lg:w-48 hover:scale-105 duration-1000'">
                             <a href="#!">
                                 <img class="rounded-t-md w-20 h-20 text-center flex" src={cooking} alt="" />
                             </a>

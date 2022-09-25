@@ -11,6 +11,7 @@ import snaks from '../../Assets/Icons/snack.png';
 import office from '../../Assets/Icons/stationery.png';
 import kitchen from '../../Assets/Icons/kitchen.png';
 import car from '../../Assets/Icons/hybrid-car.png';
+import { Link } from 'react-router-dom';
 const Navbar = () => {
     return (
         <div>
@@ -38,7 +39,7 @@ const Navbar = () => {
 
                                 <li class="nav-item shadow-blue-600/50 static lg:mr-20 ml-5 text-white list-none font-bold lg:text-2xl" >EASY <span className='text-[#ffc107] shadow-blue-600/50'>BAZAR</span> </li>
 
-                                <li class="nav-item static text-white list-none font-bold text-lg" >HOME</li>
+                                <Link to={"/"}><li class="nav-item static text-white list-none font-bold text-lg" >HOME</li></Link>
                                 <ul class="navbar-nav mr-auto flex flex-row">
 
                                     <li class="nav-item dropdown static text-white text-lg  lg:mx-5">
