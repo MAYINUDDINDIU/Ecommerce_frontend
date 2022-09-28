@@ -12,6 +12,9 @@ import office from '../../Assets/Icons/stationery.png';
 import kitchen from '../../Assets/Icons/kitchen.png';
 import car from '../../Assets/Icons/hybrid-car.png';
 import { Link } from 'react-router-dom';
+import { BsFillCartFill } from "react-icons/bs";
+import { BsFillPersonLinesFill } from "react-icons/bs";
+
 const Navbar = () => {
     return (
         <div>
@@ -251,6 +254,54 @@ const Navbar = () => {
                                         </div>
                                     </div>
                                 </li>
+
+                                <li class="nav-item static text-white list-none font-bold text-2xl  ml-20">
+                                    <div className=''>
+                                        <BsFillCartFill />
+                                    </div>
+
+                                </li>
+
+                                <li class="nav-item static text-white list-none font-bold text-2xl  ml-4">
+                                    <div class="dropdown relative">
+                                        <a
+                                            class="text-white   mr-4 dropdown-toggle hidden-arrow flex items-center"
+                                            href="#"
+                                            id="dropdownMenuButton1"
+                                            role="button"
+                                            data-bs-toggle="dropdown"
+                                            aria-expanded="false"
+                                        >
+                                            <BsFillPersonLinesFill />
+
+                                        </a>
+                                        <ul
+                                            class="dropdown-menu min-w-max absolute hidden bg-white text-base z-50 float-left py-2 list-none text-left rounded-lg shadow-lg mt-1 hidden m-0 bg-clip-padding border-none left-auto right-0"
+                                            aria-labelledby="dropdownMenuButton1"
+                                        >
+                                            <li>
+                                                <a
+                                                    class="dropdown-item text-sm py-2 px-12 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100"
+                                                    href="#"
+                                                ><Link to='login'>Login </Link> </a>
+                                            </li>
+                                            <li>
+                                                <a
+                                                    class="dropdown-item text-sm py-2 px-12 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100"
+                                                    href="#"
+                                                >Sign Up</a>
+                                            </li>
+                                            {/* <li>
+                                                <a
+                                                    class="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100"
+                                                    href="#"
+                                                >Something else here</a
+                                                >
+                                            </li> */}
+                                        </ul>
+                                    </div>
+                                </li>
+
 
                             </div>
 

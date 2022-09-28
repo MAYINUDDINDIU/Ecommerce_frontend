@@ -25,7 +25,6 @@ const Product = () => {
                     <div class="rounded-lg shadow-xl hover:bg-[#e1f5fe] shadow-2xl  bg-white  h-40 ">
                         <Link to='Category'>
                             <div class="flex justify-center w-100 mt-5 w-40 md:w-44 xl:w-48 lg:w-48 hover:scale-105 duration-1000'">
-
                                 <img class="rounded-t-md w-20 h-20 text-center flex" src={baby} alt="" />
 
                             </div>
@@ -51,7 +50,7 @@ const Product = () => {
 
                 <div class="flex justify-center w-100">
                     <div class="rounded-lg shadow-xl bg-white w-100 h-40 hover:bg-[#e1f5fe]">
-                        <div class="flex justify-center w-100 mt-5 w-44  xl:w-48 lg:w-48 hover:scale-105 duration-1000'">
+                        <div class="flex justify-center w-100 mt-5 w-40  xl:w-48 lg:w-48 hover:scale-105 duration-1000'">
                             <a href="#!">
                                 <img class="rounded-t-md w-20 h-20 text-center flex" src={fruits} alt="" />
                             </a>
@@ -63,7 +62,7 @@ const Product = () => {
                 </div>
                 <div class="flex justify-center w-100">
                     <div class="rounded-lg shadow-xl bg-white w-100 h-40 hover:bg-[#e1f5fe]">
-                        <div class="flex justify-center w-100 mt-5 w-44  xl:w-48 lg:w-48 hover:scale-105 duration-1000'">
+                        <div class="flex justify-center w-100 mt-5 w-40  xl:w-48 lg:w-48 hover:scale-105 duration-1000'">
                             <a href="#!">
                                 <img class="rounded-t-md w-20 h-20 text-center flex" src={drinks} alt="" />
                             </a>
@@ -75,7 +74,7 @@ const Product = () => {
                 </div>
                 <div class="flex justify-center w-100">
                     <div class="rounded-lg shadow-xl bg-white w-100 h-40 hover:bg-[#e1f5fe]">
-                        <div class="flex justify-center w-100 mt-5 w-44  xl:w-48 lg:w-48 hover:scale-105 duration-1000'">
+                        <div class="flex justify-center w-100 mt-5 w-40  xl:w-48 lg:w-48 hover:scale-105 duration-1000'">
                             <a href="#!">
                                 <img class="rounded-t-md w-20 h-20 text-center flex" src={home_care} alt="" />
                             </a>
@@ -87,7 +86,7 @@ const Product = () => {
                 </div>
                 <div class="flex justify-center w-100">
                     <div class="rounded-lg shadow-xl bg-white w-100 h-40 hover:bg-[#e1f5fe]">
-                        <div class="flex justify-center w-100 mt-5 w-44  xl:w-48 lg:w-48 hover:scale-105 duration-1000'">
+                        <div class="flex justify-center w-100 mt-5 w-40  xl:w-48 lg:w-48 hover:scale-105 duration-1000'">
                             <a href="#!">
                                 <img class="rounded-t-md w-20 h-20 text-center flex" src={beauty_baby} alt="" />
                             </a>
@@ -103,7 +102,7 @@ const Product = () => {
 
                 <div class="flex justify-center w-full ">
                     <div class="rounded-lg shadow-xl hover:bg-[#e1f5fe] shadow-2xl  bg-white w-100 h-40 ">
-                        <div class="flex justify-center w-100 mt-5 w-44  xl:w-48 lg:w-48 hover:scale-105 duration-1000'">
+                        <div class="flex justify-center w-100 mt-5 w-40  xl:w-48 lg:w-48 hover:scale-105 duration-1000'">
                             <a href="#!">
                                 <img class="rounded-t-md w-20 h-20 text-center flex" src={health_care} alt="" />
                             </a>
@@ -117,7 +116,7 @@ const Product = () => {
 
                 <div class="flex justify-center w-100">
                     <div class="rounded-lg shadow-xl hover:bg-[#e1f5fe] bg-white w-100 h-40">
-                        <div class="flex justify-center w-100 mt-5 w-44  xl:w-48 lg:w-48 hover:scale-105 duration-1000'">
+                        <div class="flex justify-center w-100 mt-5 w-40  xl:w-48 lg:w-48 hover:scale-105 duration-1000'">
                             <a href="#!">
                                 <img class="rounded-t-md w-20 h-20 text-center flex" src={milk} alt="" />
                             </a>
@@ -130,7 +129,7 @@ const Product = () => {
 
                 <div class="flex justify-center w-100">
                     <div class="rounded-lg shadow-xl bg-white w-100 h-40 hover:bg-[#e1f5fe]">
-                        <div class="flex justify-center w-100 mt-5 w-44  xl:w-48 lg:w-48 hover:scale-105 duration-1000'">
+                        <div class="flex justify-center w-100 mt-5 w-40  xl:w-48 lg:w-48 hover:scale-105 duration-1000'">
                             <a href="#!">
                                 <img class="rounded-t-md w-20 h-20 text-center flex" src={snaks} alt="" />
                             </a>
@@ -142,7 +141,7 @@ const Product = () => {
                 </div>
                 <div class="flex justify-center w-100">
                     <div class="rounded-lg shadow-xl bg-white w-100 h-40 hover:bg-[#e1f5fe]">
-                        <div class="flex justify-center w-100 mt-5 w-44  xl:w-48 lg:w-48 hover:scale-105 duration-1000'">
+                        <div class="flex justify-center w-100 mt-5 w-40  xl:w-48 lg:w-48 hover:scale-105 duration-1000'">
                             <a href="#!">
                                 <img class="rounded-t-md w-20 h-20 text-center flex" src={office} alt="" />
                             </a>
@@ -154,7 +153,7 @@ const Product = () => {
                 </div>
                 <div class="flex justify-center w-100">
                     <div class="rounded-lg shadow-xl bg-white w-100 h-36 lg:h-40 hover:bg-[#e1f5fe]">
-                        <div class="flex justify-center w-100 mt-5 w-44  xl:w-48 lg:w-48 hover:scale-105 duration-1000'">
+                        <div class="flex justify-center w-100 mt-5 w-40  xl:w-48 lg:w-48 hover:scale-105 duration-1000'">
                             <a href="#!">
                                 <img class="rounded-t-md w-20 h-20 text-center flex" src={kitchen} alt="" />
                             </a>
@@ -166,7 +165,7 @@ const Product = () => {
                 </div>
                 <div class="flex justify-center w-100">
                     <div class="rounded-lg shadow-xl bg-white w-100 h-36 lg:h-40 hover:bg-[#e1f5fe]">
-                        <div class="flex justify-center w-100 mt-5 w-44  xl:w-48 lg:w-48 hover:scale-105 duration-1000'">
+                        <div class="flex justify-center w-100 mt-5 w-40  xl:w-48 lg:w-48 hover:scale-105 duration-1000'">
                             <a href="#!">
                                 <img class="rounded-t-md w-20 h-20 text-center flex" src={car} alt="" />
                             </a>

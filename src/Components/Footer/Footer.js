@@ -3,7 +3,7 @@ import React from 'react';
 const Footer = () => {
     return (
         <div>
-            <footer class="text-center lg:text-left bg-[#e0f7fa] text-gray-600 mt-12">
+            <footer class="text-center lg:text-left bg-[#f1f8e9] text-gray-600 mt-12">
                 <div class="flex justify-center items-center lg:justify-between p-6 border-b border-gray-300">
                     <div class="mr-12 hidden lg:block">
                         <span>Get connected with us on social networks:</span>
@@ -169,7 +169,7 @@ const Footer = () => {
                 </div>
                 <div class="text-center p-6 bg-gray-200">
                     <span>© 2022 Copyright:</span>
-                    <a class="text-gray-600 font-semibold" href="#"> EASY MART</a>
+                    <a class="text-gray-600 font-semibold" href="#">EASY MART</a>
                 </div>
             </footer>
         </div>
