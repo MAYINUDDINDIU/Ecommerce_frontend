@@ -3,13 +3,13 @@ import React from 'react';
 const Footer = () => {
     return (
         <div>
-            <footer class="text-center lg:text-left bg-[#f1f8e9] text-gray-600 mt-12">
+            <footer class="text-center lg:text-left bg-[#519657] text-white mt-12">
                 <div class="flex justify-center items-center lg:justify-between p-6 border-b border-gray-300">
                     <div class="mr-12 hidden lg:block">
                         <span>Get connected with us on social networks:</span>
                     </div>
                     <div class="flex justify-center">
-                        <a href="#!" class="mr-6 text-gray-600">
+                        <a href="#!" class="mr-6 text-white">
                             <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook-f"
                                 class="w-2.5" role="img" xmlns="http://www.w3.org/2000/svg"
                                 viewBox="0 0 320 512">
@@ -18,7 +18,7 @@ const Footer = () => {
                                 </path>
                             </svg>
                         </a>
-                        <a href="#!" class="mr-6 text-gray-600">
+                        <a href="#!" class="mr-6 text-white">
                             <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="twitter"
                                 class="w-4" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                                 <path fill="currentColor"
@@ -26,7 +26,7 @@ const Footer = () => {
                                 </path>
                             </svg>
                         </a>
-                        <a href="#!" class="mr-6 text-gray-600">
+                        <a href="#!" class="mr-6 text-white">
                             <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="google"
                                 class="w-3.5" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 488 512">
                                 <path fill="currentColor"
@@ -34,7 +34,7 @@ const Footer = () => {
                                 </path>
                             </svg>
                         </a>
-                        <a href="#!" class="mr-6 text-gray-600">
+                        <a href="#!" class="mr-6 text-white">
                             <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="instagram"
                                 class="w-3.5" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
                                 <path fill="currentColor"
@@ -42,7 +42,7 @@ const Footer = () => {
                                 </path>
                             </svg>
                         </a>
-                        <a href="#!" class="mr-6 text-gray-600">
+                        <a href="#!" class="mr-6 text-white">
                             <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin-in"
                                 class="w-3.5" role="img" xmlns="http://www.w3.org/2000/svg"
                                 viewBox="0 0 448 512">
@@ -51,7 +51,7 @@ const Footer = () => {
                                 </path>
                             </svg>
                         </a>
-                        <a href="#!" class="text-gray-600">
+                        <a href="#!" class="text-white">
                             <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="github"
                                 class="w-4" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
                                 <path fill="currentColor"
@@ -92,16 +92,16 @@ const Footer = () => {
                                 Products
                             </h6>
                             <p class="mb-4">
-                                <a href="#!" class="text-gray-600">Angular</a>
+                                <a href="#!" class="text-white">Baby Care</a>
                             </p>
                             <p class="mb-4">
-                                <a href="#!" class="text-gray-600">React</a>
+                                <a href="#!" class="text-white">Kitchen and Cooking</a>
                             </p>
                             <p class="mb-4">
-                                <a href="#!" class="text-gray-600">Vue</a>
+                                <a href="#!" class="text-white">Milk & Dairy</a>
                             </p>
                             <p>
-                                <a href="#!" class="text-gray-600">Laravel</a>
+                                <a href="#!" class="text-white">Snacks & Spread</a>
                             </p>
                         </div>
                         <div class="">
@@ -109,16 +109,16 @@ const Footer = () => {
                                 Useful links
                             </h6>
                             <p class="mb-4">
-                                <a href="#!" class="text-gray-600">Pricing</a>
+                                <a href="#!" class="text-white">Pricing</a>
                             </p>
                             <p class="mb-4">
-                                <a href="#!" class="text-gray-600">Settings</a>
+                                <a href="#!" class="text-white">Settings</a>
                             </p>
                             <p class="mb-4">
-                                <a href="#!" class="text-gray-600">Orders</a>
+                                <a href="#!" class="text-white">Orders</a>
                             </p>
                             <p>
-                                <a href="#!" class="text-gray-600">Help</a>
+                                <a href="#!" class="text-white">Help</a>
                             </p>
                         </div>
                         <div class="">
@@ -132,7 +132,7 @@ const Footer = () => {
                                         d="M280.37 148.26L96 300.11V464a16 16 0 0 0 16 16l112.06-.29a16 16 0 0 0 15.92-16V368a16 16 0 0 1 16-16h64a16 16 0 0 1 16 16v95.64a16 16 0 0 0 16 16.05L464 480a16 16 0 0 0 16-16V300L295.67 148.26a12.19 12.19 0 0 0-15.3 0zM571.6 251.47L488 182.56V44.05a12 12 0 0 0-12-12h-56a12 12 0 0 0-12 12v72.61L318.47 43a48 48 0 0 0-61 0L4.34 251.47a12 12 0 0 0-1.6 16.9l25.5 31A12 12 0 0 0 45.15 301l235.22-193.74a12.19 12.19 0 0 1 15.3 0L530.9 301a12 12 0 0 0 16.9-1.6l25.5-31a12 12 0 0 0-1.7-16.93z">
                                     </path>
                                 </svg>
-                                New York, NY 10012, US
+                                Purana Pltan, Dhaka
                             </p>
                             <p class="flex items-center justify-center md:justify-start mb-4">
                                 <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="envelope"
@@ -167,9 +167,9 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-                <div class="text-center p-6 bg-gray-200">
-                    <span>© 2022 Copyright:</span>
-                    <a class="text-gray-600 font-semibold" href="#">EASY MART</a>
+                <div class="text-center p-6 bg-[#338a3e]">
+                    <span>©2022 Copyright:</span>
+                    <a class="text-white font-semibold" href="#">  EASY MART</a>
                 </div>
             </footer>
         </div>
